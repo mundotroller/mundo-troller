@@ -1,52 +1,79 @@
 .products_container {
-    padding: 12px 20px;
-    max-width: 1200px;
-    margin: 0 auto;
+  padding: 12px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .products_content-title h2 {
-    font-size: 2rem;
-    color: #1A1D24;
-    position: relative;
-    font-weight: bold;
-    margin-bottom: 18px;
+  font-size: 2rem;
+  color: #1a1d24;
+  position: relative;
+  font-weight: bold;
+  margin-bottom: 18px;
 }
 
 .products_content-title h2::before {
-    position: absolute;
-    content: '';
-    width: 6px;
-    height: 20px;
-    background-color: #994040;
-    left: -16px;
-    top: 9px;
+  position: absolute;
+  content: "";
+  width: 6px;
+  height: 20px;
+  background-color: #994040;
+  left: -16px;
+  top: 9px;
 }
 
 .products_content-title p {
-    font-size: 1rem;
-    color: #1A1D24;
-    position: relative;
-    font-weight: 500;
-    max-width: 50ch;
+  font-size: 1rem;
+  color: #1a1d24;
+  position: relative;
+  font-weight: 500;
+  max-width: 50ch;
+}
+
+/* Temporary */
+.wts-btn {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 60px;
+  color: #fff !important;
+}
+
+.temporary-container {
+  padding: 12px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.temporary-container div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.temporary-container div {
+  text-align: center;
 }
 
 @media (max-width: 600px) {
-    .products_content-title h2 {
-        font-size: 1.5rem;
-        color: #1A1D24;
-    }
+  .products_content-title h2 {
+    font-size: 1.5rem;
+    color: #1a1d24;
+  }
 
-    .products_content-title h2::before {
-        position: absolute;
-        content: '';
-        width: 6px;
-        height: 16px;
-        background-color: #994040;
-        left: -10px;
-        top: 5px;
-    }
+  .products_content-title h2::before {
+    position: absolute;
+    content: "";
+    width: 6px;
+    height: 16px;
+    background-color: #994040;
+    left: -10px;
+    top: 5px;
+  }
 
-    .products_content-title p {
-        font-size: .875rem;
-    }
+  .products_content-title p {
+    font-size: 0.875rem;
+  }
 }
