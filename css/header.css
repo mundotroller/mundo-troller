@@ -43,8 +43,7 @@
   max-width: 100%;
   background: linear-gradient(to right,
       rgba(11, 11, 11, 1) 0%,
-      rgba(11, 11, 11, 0) 66%
-    );
+      rgba(11, 11, 11, 0) 66%);
 }
 
 .header_primary {
@@ -76,7 +75,6 @@
   background-color: #2c2c2c;
 }
 
-/* responsive */
 @media (max-width: 600px) {
   .header_secondary a {
     gap: 6px;

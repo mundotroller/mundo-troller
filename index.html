@@ -19,10 +19,12 @@
     <header class="header">
         <div class="header_secondary">
             <div>
-                <a id="wpp-utility-link"><img src="./assets/icons/logo-whatsapp.svg" alt="whatsapp">(85) 98863-5640</a>
+                <a id="wpp-utility-link"><img src="./assets/icons/logo-whatsapp.svg" alt="whatsapp">Fale com a
+                    gente!</a>
             </div>
             <div>
-                <a href="https://www.instagram.com/mundotroller" target="_blank"> <img src="./assets/icons/logo-instagram.svg" alt="whatsapp"> @mundotroller</a>
+                <a href="https://www.instagram.com/mundotroller" target="_blank"> <img
+                        src="./assets/icons/logo-instagram.svg" alt="whatsapp"> @mundotroller</a>
             </div>
         </div>
         <div class="cover">
@@ -31,14 +33,14 @@
                     <img src="./assets/logo/logo.svg" alt="Logo mundo Jeep">
                     <nav>
                         <ul class="header_nav-primary">
-                            <li>
+                            <!-- <li>
                                 <a href="#temporary">Sobre</a>
+                            </li> -->
+                            <li>
+                                <a href="#products_container">Produtos</a>
                             </li>
                             <li>
-                                <a href="#temporary">Produtos</a>
-                            </li>
-                            <li>
-                                <a href="#temporary">Contato</a>
+                                <a href="#footer">Contato</a>
                             </li>
                         </ul>
                     </nav>
@@ -46,30 +48,31 @@
                 <main class="main_container">
                     <div class="main_content-title">
                         <h1>Mundo Troller</h1>
-                        <p>Inspirada na robustez e na versatilidade dos carros do tipo Troller, nossa marca promete
-                            levar você a novos horizontes, explorar terrenos desafiadores e vivenciar experiências
-                            inesquecíveis.</p>
+                        <p id="autopecas-title">AUTOPEÇAS</p>
+
+                        <p>Peças originais que garantem a robustez e confiança do seu Jeep. Encontre aqui tudo o que
+                            você precisa para manter seu Troller em perfeito funcionamento, pronto para qualquer
+                            aventura.</p>
                     </div>
-                    <!-- <div class="main_content-btn">
-                        <button>
+                    <div class="main_content-btn">
+                        <a href="#products_container">
                             Conhecer Catálogo
-                        </button>
-                    </div> -->
+                        </a>
+                    </div>
                 </main>
             </div>
         </div>
     </header>
-    <!-- Function em desenvolvimento - Não apagar -->
-    <!-- <section class="products_container">
+    <section class="products_container" id="products_container">
         <div class="products_content-title">
             <h2>Nossos Produtos</h2>
             <p>Peças com garantia de montadora e à pronta entrega. Conheça a nossa linha de produtos e faça seu pedido!
             </p>
         </div>
-        <div class="products_content-items">
+        <div class="products_content">
         </div>
-    </section> -->
-    <section class="temporary-container" id="temporary">
+    </section>
+    <!-- <section class="temporary-container" id="temporary">
         <div>
             <h2>Nosso site está quase pronto 🛠️ </h2>
             <P>Até lá faça seu pedido através do link abaixo ⬇️</P>
@@ -80,8 +83,28 @@
                 </button>
             </div>
         </div>
-    </section>
-    <script src="./script.js"></script>
+    </section> -->
+    <footer class="footer-container" id="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="./assets/logo/logo.svg" alt="logo">
+            </div>
+            <div class="footer-contato">
+                <h4>CONTATO</h4>
+                <div class="footer-contato-subtitles">
+                    <a id="wpp-utility-link"><img src="./assets/icons/logo-whatsapp-green.svg" alt="whatsapp">(85)
+                        98863-5640</a>
+                    <a href="https://www.instagram.com/mundotroller" target="_blank"> <img
+                            src="./assets/icons/logo-instagram-white.svg" alt="whatsapp"> @mundotroller</a>
+                </div>
+            </div>
+            <div class="footer-footer">
+                <p>Mundo Troller © Alguns direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/data/products.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
