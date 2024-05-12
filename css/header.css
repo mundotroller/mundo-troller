@@ -30,12 +30,10 @@
 
 /* header primary  */
 .cover {
-  background-image: url("../assets/background/background.png");
+  background-image: url("../assets/background/background.webp");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center right;
-  height: 655px;
-  margin-bottom: 60px;
+  background-position: center left;
 }
 
 .gradient {
@@ -76,6 +74,14 @@
 }
 
 @media (max-width: 600px) {
+  .cover {
+    background-image: url("../assets/background/backgroud-mobile.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  
+
   .header_secondary a {
     gap: 6px;
     font-size: 0.75rem;

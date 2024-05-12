@@ -128,6 +128,18 @@
   text-align: center;
 }
 
+.product-container-not-found {
+  display: none;
+}
+
+.product-container-not-found.active {
+  display: block;
+}
+
+.product-item-name-span {
+  color: #994040;
+}
+
 @media (max-width: 900px) {
   .products_content {
     grid-template-columns: 1fr 1fr;
@@ -166,7 +178,6 @@
   .product-item-body h3 {
     font-size: 0.875rem;
     margin-bottom: 16px;
-
   }
 
   .product-item-subtitles {

@@ -7,14 +7,27 @@
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
+    gap: 30px;
     row-gap: 100px;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr 2fr;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .footer-contato h4 {
     color: #a19c9c;
+}
+
+.footer-contato-subtitles p {
+    color: #f1f1f1;
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    gap: 10px;
+}
+
+.footer-contato-subtitles p>i {
+    font-size: 1.5rem;
 }
 
 .footer-contato a {
@@ -23,7 +36,14 @@
     margin-bottom: 16px;
     gap: 10px;
     color: #f1f1f1;
+    text-decoration: none;
+    align-items: center;
 }
+
+.footer-contato a>i {
+    font-size: 1.5rem;
+}
+
 
 .footer-footer {
     color: #a19c9c;
