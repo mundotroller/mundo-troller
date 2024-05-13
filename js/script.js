@@ -1,5 +1,5 @@
 /* Variáveis de interação */
-const wppUtilityLink = document.getElementById('wpp-utility-link');
+const wppUtilityLink = document.querySelectorAll('.wpp-utility-link');
 const inputProducts = document.getElementById('input-products');
 const phoneNumber = '5585988635640';
 
@@ -122,7 +122,9 @@ function initRenderProducts() {
         })
     }
 }
-initRenderProducts()
+initRenderProducts();
 
 /* Eventos */
-wppUtilityLink.addEventListener("click", () => handleSendMessage('Olá, gostaria de fazer um pedido!'));
+wppUtilityLink.forEach((link) => {
+    link.addEventListener("click", () => handleSendMessage('Olá, gostaria de fazer um pedido!'));
+});
