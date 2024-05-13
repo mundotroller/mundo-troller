@@ -75,14 +75,14 @@ function initScrollSuave() {
         const href = event.currentTarget.getAttribute('href');
         const section = document.querySelector(href);
         const topo = section.offsetTop
-    
+
         window.scrollTo({
             top: topo,
             behavior: 'smooth'
-        
+
         })
     }
-    
+
     linksInternos.forEach((link) => {
         link.addEventListener('click', scrollToSection)
     });
@@ -91,12 +91,10 @@ initScrollSuave();
 
 /* Renderização dos produtos */
 function initRenderProducts() {
-    const path = window.location.pathname;
-    if (path === "/index.html") {
-        products.map((item, index) => {
-            let priceFormated = formatToBRL(item.VALOR);
-        
-            let productItemHTML = `
+    products.map((item, index) => {
+        let priceFormated = formatToBRL(item.VALOR);
+
+        let productItemHTML = `
                 <li class="products_content-item" id="prodcut-item-${index}">
                     <img src="./assets/products/${item["COD. INTERNO"]}_1.webp" class="img-product">
                     <div class="product-item-body">
@@ -114,13 +112,15 @@ function initRenderProducts() {
                     </div>
                 </li>
             `
-            document.querySelector(".products_content").insertAdjacentHTML("beforeend", productItemHTML);
+        const sectionProductContet = document.querySelector(".products_content");
+        if (sectionProductContet) {
+            sectionProductContet.insertAdjacentHTML("beforeend", productItemHTML);
             document.getElementById(`button-item-${index}`).addEventListener("click", (e) => {
                 e.preventDefault();
                 messageGeneratorOrder(item);
             })
-        })
-    }
+        }
+    })
 }
 initRenderProducts();
 
