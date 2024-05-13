@@ -66,35 +66,63 @@ function messageGeneratorOrder(product) {
     handleSendMessage(message);
 }
 
+/* Scroll suave */
+function initScrollSuave() {
+    const linksInternos = document.querySelectorAll('.js-menu a[href^="#"]');
+
+    function scrollToSection(event) {
+        event.preventDefault();
+        const href = event.currentTarget.getAttribute('href');
+        const section = document.querySelector(href);
+        const topo = section.offsetTop
+    
+        window.scrollTo({
+            top: topo,
+            behavior: 'smooth'
+        
+        })
+    }
+    
+    linksInternos.forEach((link) => {
+        link.addEventListener('click', scrollToSection)
+    });
+};
+initScrollSuave();
+
 /* Renderização dos produtos */
-products.map((item, index) => {
-    let priceFormated = formatToBRL(item.VALOR);
-
-    let productItemHTML = `
-        <li class="products_content-item" id="prodcut-item-${index}">
-            <img src="./assets/products/${item["COD. INTERNO"]}_1.webp" class="img-product">
-            <div class="product-item-body">
-                <h3 class="product-item-name">${item.PEÇAS} 
-                    ${item.APLICAÇÃO}</h3>
-                <div class="product-item-subtitles">
-                    <p>${item["COD. INTERNO"]} | ${item.UNIDADES}</p>
-                    <span class="price">${priceFormated}</span>
-                </div>
-                <div class="product-item-footer" id="productNotFuound">
-                    <button id="button-item-${index}">
-                        Adicionar <img src="./assets/icons/logo-whatsapp-green.svg">
-                    </button>
-                </div>
-            </div>
-        </li>
-    `
-
-    document.querySelector(".products_content").insertAdjacentHTML("beforeend", productItemHTML);
-    document.getElementById(`button-item-${index}`).addEventListener("click", (e) => {
-        e.preventDefault();
-        messageGeneratorOrder(item);
-    })
-})
+function initRenderProducts() {
+    const path = window.location.pathname;
+    if (path === "/index.html") {
+        products.map((item, index) => {
+            let priceFormated = formatToBRL(item.VALOR);
+        
+            let productItemHTML = `
+                <li class="products_content-item" id="prodcut-item-${index}">
+                    <img src="./assets/products/${item["COD. INTERNO"]}_1.webp" class="img-product">
+                    <div class="product-item-body">
+                        <h3 class="product-item-name">${item.PEÇAS} 
+                            ${item.APLICAÇÃO}</h3>
+                        <div class="product-item-subtitles">
+                            <p>${item["COD. INTERNO"]} | ${item.UNIDADES}</p>
+                            <span class="price">${priceFormated}</span>
+                        </div>
+                        <div class="product-item-footer" id="productNotFuound">
+                            <button id="button-item-${index}">
+                                Adicionar <img src="./assets/icons/logo-whatsapp-green.svg">
+                            </button>
+                        </div>
+                    </div>
+                </li>
+            `
+            document.querySelector(".products_content").insertAdjacentHTML("beforeend", productItemHTML);
+            document.getElementById(`button-item-${index}`).addEventListener("click", (e) => {
+                e.preventDefault();
+                messageGeneratorOrder(item);
+            })
+        })
+    }
+}
+initRenderProducts()
 
 /* Eventos */
 wppUtilityLink.addEventListener("click", () => handleSendMessage('Olá, gostaria de fazer um pedido!'));
