@@ -368,7 +368,7 @@ let products = [
     PEÇAS: "KIT REPARO DA CX SATELITE ORIGINAL",
     APLICAÇÃO: "TROLLER 02/14",
     UNIDADES: "02 UNID",
-    VALOR: "1.550,00",
+    VALOR: "1550,00",
   },
   {
     "COD. INTERNO": "MT0084",
