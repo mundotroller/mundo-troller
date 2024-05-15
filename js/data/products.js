@@ -190,7 +190,7 @@ let products = [
   },
   {
     "COD. INTERNO": "MT0036",
-    PEÇAS: "CARDAN TRASEIRO ORIGINAL",
+    PEÇAS: "CARDAN DIANTEIRO ORIGINAL",
     APLICAÇÃO: "TROLLER 06/14",
     UNIDADES: "03 UNID",
     VALOR: "4000",
@@ -338,7 +338,7 @@ let products = [
   {
     "COD. INTERNO": "MT0009",
     PEÇAS: "KIT CORRENTE CAIXA TRANSFERÊNCIA 4X4",
-    APLICAÇÃO: "TROLLER 00/14",
+    APLICAÇÃO: "TROLLER 00/14 | PARALELO",
     UNIDADES: "02 KIT",
     VALOR: "1400",
   },
@@ -373,7 +373,7 @@ let products = [
   {
     "COD. INTERNO": "MT0084",
     PEÇAS: "KIT REPARO DOBRADICAS DO PORTA LUVAS",
-    APLICAÇÃO: "TROLLER 15/21",
+    APLICAÇÃO: "TROLLER 15/21 | PARALELO",
     UNIDADES: "18 KIT",
     VALOR: "99,00",
   },
