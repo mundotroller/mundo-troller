@@ -52,8 +52,8 @@
 
 .img-product {
   height: 360px;
-  object-fit: cover;
-  object-position: center center;
+  /* object-fit: cover;
+  object-position: center center; */
   border-radius: 5px;
   margin-bottom: 24px;
 }
@@ -191,5 +191,11 @@
 
   .price {
     font-size: 0.775rem;
+  }
+}
+
+@media (max-width: 370px) {
+  .products_content {
+    grid-template-columns: 1fr;
   }
 }

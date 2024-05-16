@@ -51,12 +51,17 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 120px;
+  margin-bottom: 80px;
 }
 
 .header_nav-primary {
   display: flex;
-  gap: 16px;
+  flex-wrap: wrap;
+  gap: 18px;
+  justify-content: center;
+  align-items: center;
+  /* row-gap: 30px;
+  gap: 16px; */
 }
 
 .header_nav-primary a {
@@ -81,7 +86,6 @@
     background-position: center center;
   }
   
-
   .header_secondary a {
     gap: 6px;
     font-size: 0.75rem;
@@ -109,4 +113,12 @@
     text-decoration: none;
     color: #fffdfa;
   }
+
+  .header_nav-primary {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+  }  
 }
