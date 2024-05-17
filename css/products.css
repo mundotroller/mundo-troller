@@ -52,8 +52,8 @@
 
 .img-product {
   height: 360px;
-  /* object-fit: cover;
-  object-position: center center; */
+  object-fit: cover;
+  object-position: center center;
   border-radius: 5px;
   margin-bottom: 24px;
 }
@@ -71,7 +71,7 @@
 }
 
 .product-item-subtitles p {
-  color: #55585D;
+  color: #55585d;
   font-weight: 700;
 }
 
@@ -87,7 +87,7 @@
   align-items: center;
   justify-content: center;
   font-family: "Inter", sans-serif;
-  background-color: #FF7A00;
+  background-color: #ff7a00;
   border: none;
   padding: 12px 30px;
   color: #fff;
