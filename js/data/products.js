@@ -512,6 +512,7 @@ let products = [
     UNIDADES: "02 UNID",
     VALOR: "460",
   },
+  /* Exclusao dia 17/05 a pedido do cliente
   {
     "COD. INTERNO": "MT0086",
     PEÇAS: "MOLDURA PAINEL CENTER STACK ORIGINAL",
@@ -519,6 +520,7 @@ let products = [
     UNIDADES: "01 UNID",
     VALOR: "479,00",
   },
+  */
   {
     "COD. INTERNO": "MT0099",
     PEÇAS: "MOTOR ATUADOR ELÉTRICO DO AR CONDICIONADO ORIGINAL",
