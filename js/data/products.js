@@ -758,7 +758,7 @@ let products = [
     PEÇAS: "CAIXA DE DIREÇÃO ORIGINAL",
     APLICAÇÃO: "TROLLER 09/14",
     UNIDADES: "",
-    VALOR: "5,500.00",
+    VALOR: "5500.00",
   },
   {
     "COD. INTERNO": "MT0109",
