@@ -237,7 +237,7 @@ let products = [
     PEÇAS: "CONSOLE MOLDURA DO TETO SEM LANTERNA ORIGINAL",
     APLICAÇÃO: "TROLLER 15/21",
     UNIDADES: "01 UNID",
-    VALOR: "410,00",
+    VALOR: "480,00",
   },
   {
     "COD. INTERNO": "MT0008",
@@ -320,14 +320,14 @@ let products = [
     "COD. INTERNO": "MT0019",
     PEÇAS: "KIT ACENDEDOR 12V ORIGINAL",
     APLICAÇÃO: "TROLLER 14/21",
-    UNIDADES: "01 UNID",
+    UNIDADES: "01 KIT",
     VALOR: "240",
   },
   {
     "COD. INTERNO": "MT0071",
     PEÇAS: "KIT CHAVE CILINDRO CANIVETE ORIGINAL",
     APLICAÇÃO: "TROLLER 15/21",
-    UNIDADES: "01 UNID",
+    UNIDADES: "01 KIT",
     VALOR: "759,00",
   },
   {
@@ -362,14 +362,14 @@ let products = [
     "COD. INTERNO": "MT0093",
     PEÇAS: "KIT REPARO DA CX SATELITE DIANTEIRO ORIGINAL",
     APLICAÇÃO: "TROLLER 02/14",
-    UNIDADES: "01 UNID",
+    UNIDADES: "01 KIT",
     VALOR: "600,00",
   },
   {
     "COD. INTERNO": "MT0094",
     PEÇAS: "KIT REPARO DA CX SATELITE ORIGINAL",
     APLICAÇÃO: "TROLLER 02/14",
-    UNIDADES: "01 UNID",
+    UNIDADES: "01 KIT",
     VALOR: "1550,00",
   },
   {
@@ -644,7 +644,7 @@ let products = [
     "COD. INTERNO": "MT0061",
     PEÇAS: "SENSOR TEMPERATURA GASES ESCAPE VERDE ORIGINAL",
     APLICAÇÃO: "TROLLER 15/21",
-    UNIDADES: "02 UNID",
+    UNIDADES: "01 UNID",
     VALOR: "580",
   },
   {
@@ -806,7 +806,7 @@ let products = [
     "COD. INTERNO": "MT0115",
     PEÇAS: "PAR DE FAROL",
     APLICAÇÃO: "TROLLER 01/04",
-    UNIDADES: "01 UNID",
+    UNIDADES: "01 PAR",
     VALOR: "600,00",
   },
   {
@@ -855,7 +855,7 @@ let products = [
     "COD. INTERNO": "MT0122",
     PEÇAS: "KIT ROLAMENTO RETENTOR COROA PIÃO CX. DE SATÉLITE",
     APLICAÇÃO: "",
-    UNIDADES: "01 UNID",
+    UNIDADES: "01 KIT",
     VALOR: "590",
   },
   {
@@ -939,14 +939,14 @@ let products = [
     "COD. INTERNO": "MT0134",
     PEÇAS: "KIT BUCHA DOBRADIÇA VIDRO TRASEIRO",
     APLICAÇÃO: "TROLLER 09/14",
-    UNIDADES: "01 UNID",
+    UNIDADES: "01 KIT",
     VALOR: "60",
   },
   {
     "COD. INTERNO": "MT0135",
     PEÇAS: "KIT ARREFECIMENTO ORIGINAL",
     APLICAÇÃO: "TROLLER 09/14",
-    UNIDADES: "01 UNID",
+    UNIDADES: "01 KIT",
     VALOR: "360",
   },
   {
@@ -981,7 +981,7 @@ let products = [
     "COD. INTERNO": "MT0140",
     PEÇAS: "KIT 06 PORCAS DE RODA ORIGINAL",
     APLICAÇÃO: "TROLLER 15/21",
-    UNIDADES: "01 UNID",
+    UNIDADES: "01 KIT",
     VALOR: "110",
   },
   {
@@ -1016,7 +1016,7 @@ let products = [
     "COD. INTERNO": "MT0145",
     PEÇAS: "KIT TRAVA PONTA DE EIXO",
     APLICAÇÃO: "",
-    UNIDADES: "01 UNID",
+    UNIDADES: "01 KIT",
     VALOR: "75",
   },
   {
