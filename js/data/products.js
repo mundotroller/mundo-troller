@@ -1096,4 +1096,26 @@ let products = [
     UNIDADES: "01 UNID",
     VALOR: "390",
   },
+  // att 17.07
+  {
+    "COD. INTERNO": "MT0157",
+    PEÇAS: "CHICOTE ELÉTRICO DA PORTA LADO ESQUERDO TROLLER",
+    APLICAÇÃO: "TROLLER 09/14",
+    UNIDADES: "01 UNID",
+    VALOR: "700",
+  },
+  {
+    "COD. INTERNO": "MT0158",
+    PEÇAS: "CHICOTE ELÉTRICO DO PAINEL TROLLER",
+    APLICAÇÃO: "TROLLER 09/14",
+    UNIDADES: "01 UNID",
+    VALOR: "1800",
+  },
+  {
+    "COD. INTERNO": "MT0159",
+    PEÇAS: "CHICOTE ELÉTRICO DO PAINEL TROLLER",
+    APLICAÇÃO: "TROLLER 06/08",
+    UNIDADES: "01 UNID",
+    VALOR: "2300",
+  },
 ];
