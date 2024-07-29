@@ -385,6 +385,7 @@ let products = [
     APLICAÇÃO: "TROLLER 09/14",
     UNIDADES: "01 UNID [ESGOTADO]",
     VALOR: "479",
+    ESGOTADO: true,
   },
   {
     "COD. INTERNO": "MT0077",
