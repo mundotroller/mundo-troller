@@ -131,7 +131,7 @@ let products = [
     "COD. INTERNO": "MT0014",
     PEÇAS: "BRACO PITMAN (CURVO) ORIGINAL",
     APLICAÇÃO: "TROLLER ../02",
-    UNIDADES: "06 UNID",
+    UNIDADES: "01 UNID",
     VALOR: "299",
   },
   {
