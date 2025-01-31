@@ -41,7 +41,7 @@ let products = [
     PEÇAS: "ALAVANCA DO CAMBIO AUTOMÁTICO ORIGINAL",
     APLICAÇÃO: "TROLLER 16/21",
     UNIDADES: "01 UNID",
-    VALOR: "2000",
+    VALOR: "2600",
   },
   {
     "COD. INTERNO": "MT0088",
@@ -139,7 +139,7 @@ let products = [
     PEÇAS: "BRAÇO PITMAN (RETRÔ) ORIGINAL",
     APLICAÇÃO: "TROLLER 03/14",
     UNIDADES: "01 UNID",
-    VALOR: "199",
+    VALOR: "290",
   },
   {
     "COD. INTERNO": "MT0016",
@@ -237,7 +237,7 @@ let products = [
     PEÇAS: "CONSOLE MOLDURA DO TETO SEM LANTERNA ORIGINAL",
     APLICAÇÃO: "TROLLER 15/21",
     UNIDADES: "01 UNID",
-    VALOR: "480,00",
+    VALOR: "405",
   },
   {
     "COD. INTERNO": "MT0008",
@@ -286,7 +286,7 @@ let products = [
     PEÇAS: "INTERRUPTOR BOTÃO BLOQUEIO DIFERENCIAL ORIGINAL",
     APLICAÇÃO: "TROLLER 15/21",
     UNIDADES: "01 UNID",
-    VALOR: "368,99",
+    VALOR: "490",
   },
   {
     "COD. INTERNO": "MT0085",
@@ -413,7 +413,7 @@ let products = [
     PEÇAS: "LANTERNA LATERAL DO PISCA ORIGINAL",
     APLICAÇÃO: "TROLLER 09/21",
     UNIDADES: "01 UNID",
-    VALOR: "179,00",
+    VALOR: "199",
   },
   {
     "COD. INTERNO": "MT0064",
@@ -462,7 +462,7 @@ let products = [
     PEÇAS: "MANGUEIRA INFERIOR DO RADIADOR ORIGINAL",
     APLICAÇÃO: "TROLLER 15/21",
     UNIDADES: "01 UNID",
-    VALOR: "399,00",
+    VALOR: "439",
   },
   {
     "COD. INTERNO": "MT0080",
@@ -476,14 +476,14 @@ let products = [
     PEÇAS: "MAQUINA DE VIDRO DIREITO ORIGINAL",
     APLICAÇÃO: "TROLLER 09/14",
     UNIDADES: "01 UNID",
-    VALOR: "1150,00",
+    VALOR: "1250",
   },
   {
     "COD. INTERNO": "MT0090",
     PEÇAS: "MAQUINA DE VIDRO ESQUERDO ORIGINAL",
     APLICAÇÃO: "TROLLER 09/14",
     UNIDADES: "01 UNID",
-    VALOR: "1150,00",
+    VALOR: "1250",
   },
   {
     "COD. INTERNO": "MT0092",
@@ -504,7 +504,7 @@ let products = [
     PEÇAS: "MODULO BCM ORIGINAL",
     APLICAÇÃO: "TROLLER 15/21",
     UNIDADES: "01 UNID",
-    VALOR: "2000",
+    VALOR: "4000",
   },
   {
     "COD. INTERNO": "MT0059",
@@ -562,7 +562,7 @@ let products = [
     PEÇAS: "PAR DE PINÇAS FREIO TRASEIRO ORIGINAL",
     APLICAÇÃO: "TROLLER 01/21",
     UNIDADES: "01 PAR",
-    VALOR: "3500",
+    VALOR: "4200",
   },
   {
     "COD. INTERNO": "MT0089",
@@ -583,7 +583,7 @@ let products = [
     PEÇAS: "SENSOR DE FASE ORIGINAL",
     APLICAÇÃO: "TROLLER 06/11",
     UNIDADES: "01 UNID",
-    VALOR: "299",
+    VALOR: "450",
   },
   {
     "COD. INTERNO": "MT0075",
@@ -618,14 +618,14 @@ let products = [
     PEÇAS: "SENSOR PIRULITO TRANSMISSÃO 4X4 ORIGINAL",
     APLICAÇÃO: "TROLLER 02/14",
     UNIDADES: "01 UNID",
-    VALOR: "329,99",
+    VALOR: "405",
   },
   {
     "COD. INTERNO": "MT0057",
     PEÇAS: "SENSOR ROTAÇÃO COMANDO VALVULAS ORIGINAL",
     APLICAÇÃO: "TROLLER 15/21",
     UNIDADES: "01 UNID",
-    VALOR: "320",
+    VALOR: "410",
   },
   {
     "COD. INTERNO": "MT0063",
@@ -660,7 +660,7 @@ let products = [
     PEÇAS: "TAMPÃO DO ASSOALHO TODOS",
     APLICAÇÃO: "TROLLER 02/21",
     UNIDADES: "01 UNID",
-    VALOR: "10",
+    VALOR: "15",
   },
   {
     "COD. INTERNO": "MT0100",
@@ -688,14 +688,14 @@ let products = [
     PEÇAS: "VÁLVULA DE AR QUENTE ORIGINAL",
     APLICAÇÃO: "TROLLER 06/11",
     UNIDADES: "01 UNID",
-    VALOR: "390",
+    VALOR: "490",
   },
   {
     "COD. INTERNO": "MT0050",
     PEÇAS: "VÁLVULA DO SISTEMA DE ARREFECIMENTO ORIGINAL",
     APLICAÇÃO: "TROLLER 06/11",
     UNIDADES: "01 UNID",
-    VALOR: "70",
+    VALOR: "99",
   },
   {
     "COD. INTERNO": "MT0024",
@@ -716,7 +716,7 @@ let products = [
     PEÇAS: "ALAVANCA TECLA DE ACIONAMENTO DO ENCOSTO DIREITO ORIGINAL",
     APLICAÇÃO: "TROLLER 15/21",
     UNIDADES: "01 UNID",
-    VALOR: "80,00",
+    VALOR: "90,00",
   },
   {
     "COD. INTERNO": "MT0103",
@@ -730,7 +730,7 @@ let products = [
     PEÇAS: "AMORTECEDOR DA TAMPA TRASEIRA ORIGINAL",
     APLICAÇÃO: "TROLLER 15/21",
     UNIDADES: "01 UNID",
-    VALOR: "129,89",
+    VALOR: "195",
   },
   {
     "COD. INTERNO": "MT0105",
@@ -752,7 +752,7 @@ let products = [
     PEÇAS: "MARCADOR DE COMBUSTÍVEL ORIGINAL",
     APLICAÇÃO: "TROLLER 02/14",
     UNIDADES: "01 UNID",
-    VALOR: "500,00",
+    VALOR: "699",
   },
   {
     "COD. INTERNO": "MT0108",
@@ -885,7 +885,7 @@ let products = [
     PEÇAS: "ADESIVO T4 DA TAMPA TRASEIRA ORIGINAL",
     APLICAÇÃO: "TROLLER 15/21",
     UNIDADES: "01 UNID",
-    VALOR: "65",
+    VALOR: "75",
   },
   {
     "COD. INTERNO": "MT0127",
@@ -1011,7 +1011,7 @@ let products = [
     PEÇAS: "DEFLETOR DA TURBINA ORIGINAL TROLLER 2.8",
     APLICAÇÃO: "TROLLER 02/05",
     UNIDADES: "01 UNID",
-    VALOR: "390",
+    VALOR: "450",
   },
   {
     "COD. INTERNO": "MT0145",
@@ -1110,13 +1110,13 @@ let products = [
     PEÇAS: "CHICOTE ELÉTRICO DO PAINEL TROLLER",
     APLICAÇÃO: "TROLLER 09/14",
     UNIDADES: "01 UNID",
-    VALOR: "1800",
+    VALOR: "3000",
   },
   {
     "COD. INTERNO": "MT0159",
     PEÇAS: "CHICOTE ELÉTRICO DO PAINEL TROLLER",
     APLICAÇÃO: "TROLLER 06/08",
     UNIDADES: "01 UNID",
-    VALOR: "2300",
+    VALOR: "3000",
   },
 ];
