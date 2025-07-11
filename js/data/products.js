@@ -237,7 +237,7 @@ let products = [
     PEÇAS: "CONSOLE MOLDURA DO TETO SEM LANTERNA ORIGINAL",
     APLICAÇÃO: "TROLLER 15/21",
     UNIDADES: "01 UNID",
-    VALOR: "405",
+    VALOR: "505",
   },
   {
     "COD. INTERNO": "MT0008",
@@ -955,7 +955,7 @@ let products = [
     PEÇAS: "PAINEL ORIGINAL",
     APLICAÇÃO: "TROLLER 09/14",
     UNIDADES: "01 UNID",
-    VALOR: "3500",
+    VALOR: "5500",
   },
   {
     "COD. INTERNO": "MT0137",
