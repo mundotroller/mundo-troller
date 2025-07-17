@@ -69,7 +69,7 @@ let products = [
     PEÇAS: "BOMBA DA CAIXA DE TRANSFERÊNCIA 4X4 ORIGINAL",
     APLICAÇÃO: "TROLLER 02/14",
     UNIDADES: "01 UNID",
-    VALOR: "70",
+    VALOR: "500",
   },
   {
     "COD. INTERNO": "MT0048",
