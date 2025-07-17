@@ -41,14 +41,14 @@ let products = [
     PEÇAS: "ALAVANCA DO CAMBIO AUTOMÁTICO ORIGINAL",
     APLICAÇÃO: "TROLLER 16/21",
     UNIDADES: "01 UNID",
-    VALOR: "2600",
+    VALOR: "3000",
   },
   {
     "COD. INTERNO": "MT0088",
     PEÇAS: "ALÇA DO TETO ORIGINAL",
     APLICAÇÃO: "TROLLER 15/21",
     UNIDADES: "01 UNID",
-    VALOR: "210,00",
+    VALOR: "270",
   },
   {
     "COD. INTERNO": "MT0027",
@@ -62,20 +62,20 @@ let products = [
     PEÇAS: "BATENTE DO CAPÔ",
     APLICAÇÃO: "TROLLER 09/14",
     UNIDADES: "01 UNID",
-    VALOR: "13",
+    VALOR: "19",
   },
   {
     "COD. INTERNO": "MT0004",
     PEÇAS: "BOMBA DA CAIXA DE TRANSFERÊNCIA 4X4 ORIGINAL",
     APLICAÇÃO: "TROLLER 02/14",
     UNIDADES: "01 UNID",
-    VALOR: "500",
+    VALOR: "70",
   },
   {
     "COD. INTERNO": "MT0048",
     PEÇAS: "BOMBA DA DIREÇÃO HIDRÁULICA ORIGINAL",
     APLICAÇÃO: "TROLLER 06/11",
-    UNIDADES: "01 UNID",
+    UNIDADES: "01 UNID [ESGOTADO]",
     VALOR: "900",
   },
   {
@@ -97,7 +97,7 @@ let products = [
     PEÇAS: "BOMBA DE VÁCUO ORIGINAL",
     APLICAÇÃO: "TROLLER 06/11",
     UNIDADES: "01 UNID",
-    VALOR: "890",
+    VALOR: "1050",
   },
   {
     "COD. INTERNO": "MT0006",
@@ -132,21 +132,21 @@ let products = [
     PEÇAS: "BRACO PITMAN (CURVO) ORIGINAL",
     APLICAÇÃO: "TROLLER ../02",
     UNIDADES: "01 UNID",
-    VALOR: "299",
+    VALOR: "360",
   },
   {
     "COD. INTERNO": "MT0013",
     PEÇAS: "BRAÇO PITMAN (RETRÔ) ORIGINAL",
     APLICAÇÃO: "TROLLER 03/14",
     UNIDADES: "01 UNID",
-    VALOR: "290",
+    VALOR: "360",
   },
   {
     "COD. INTERNO": "MT0016",
     PEÇAS: "BUCHA DA MANGA DE EIXO DIANTEIRA",
     APLICAÇÃO: "TROLLER 02/14",
     UNIDADES: "01 UNID",
-    VALOR: "45",
+    VALOR: "75",
   },
   {
     "COD. INTERNO": "MT0060",
@@ -167,7 +167,7 @@ let products = [
     PEÇAS: "CAMERA DE RÉ ORIGINAL",
     APLICAÇÃO: "TROLLER TX4",
     UNIDADES: "01 UNID",
-    VALOR: "590,00",
+    VALOR: "700",
   },
   {
     "COD. INTERNO": "MT0083",
@@ -180,7 +180,7 @@ let products = [
     "COD. INTERNO": "MT0037",
     PEÇAS: "CARCAÇA DA VÁLVULA TERMOSTÁTICA",
     APLICAÇÃO: "TROLLER 06/11",
-    UNIDADES: "01 UNID",
+    UNIDADES: "01 UNID [ESGOTADO]",
     VALOR: "1100",
   },
   {
@@ -237,13 +237,13 @@ let products = [
     PEÇAS: "CONSOLE MOLDURA DO TETO SEM LANTERNA ORIGINAL",
     APLICAÇÃO: "TROLLER 15/21",
     UNIDADES: "01 UNID",
-    VALOR: "505",
+    VALOR: "450",
   },
   {
     "COD. INTERNO": "MT0008",
     PEÇAS: "CREMALHEIRA CAIXA TRANSFERÊNCIA 4X4 ORIGINAL",
     APLICAÇÃO: "TROLLER 02/14",
-    UNIDADES: "01 UNID",
+    UNIDADES: "01 UNID [ESGOTADO]",
     VALOR: "499",
   },
   {
@@ -286,7 +286,7 @@ let products = [
     PEÇAS: "INTERRUPTOR BOTÃO BLOQUEIO DIFERENCIAL ORIGINAL",
     APLICAÇÃO: "TROLLER 15/21",
     UNIDADES: "01 UNID",
-    VALOR: "490",
+    VALOR: "550",
   },
   {
     "COD. INTERNO": "MT0085",
@@ -300,7 +300,7 @@ let products = [
     PEÇAS: "INTERRUPTOR LUZ DE FREIO ORIGINAL",
     APLICAÇÃO: "TROLLER 15/21",
     UNIDADES: "01 UNID",
-    VALOR: "99",
+    VALOR: "145",
   },
   {
     "COD. INTERNO": "MT0029",
@@ -342,7 +342,7 @@ let products = [
     PEÇAS: "KIT CORRENTE CAIXA TRANSFERÊNCIA 4X4",
     APLICAÇÃO: "TROLLER 00/14 | PARALELO",
     UNIDADES: "01 KIT",
-    VALOR: "1400",
+    VALOR: "1900",
   },
   {
     "COD. INTERNO": "MT0034",
@@ -392,7 +392,7 @@ let products = [
     PEÇAS: "LANTERNA DO PISCA DIREITO ORIGINAL",
     APLICAÇÃO: "TROLLER 15/21",
     UNIDADES: "01 UNID",
-    VALOR: "539,99",
+    VALOR: "630",
   },
   {
     "COD. INTERNO": "MT0018",
@@ -406,14 +406,14 @@ let products = [
     PEÇAS: "LANTERNA DO PISCA ESQUERDO ORIGINAL",
     APLICAÇÃO: "TROLLER 15/21",
     UNIDADES: "01 UNID",
-    VALOR: "549,99",
+    VALOR: "630",
   },
   {
     "COD. INTERNO": "MT0069",
     PEÇAS: "LANTERNA LATERAL DO PISCA ORIGINAL",
     APLICAÇÃO: "TROLLER 09/21",
     UNIDADES: "01 UNID",
-    VALOR: "199",
+    VALOR: "220",
   },
   {
     "COD. INTERNO": "MT0064",
@@ -427,7 +427,7 @@ let products = [
     PEÇAS: "MAÇANETA EXTRENA DA PORTA DIREITA",
     APLICAÇÃO: "TROLLER 15/21",
     UNIDADES: "01 UNID",
-    VALOR: "160",
+    VALOR: "220",
   },
   {
     "COD. INTERNO": "MT0087",
@@ -462,7 +462,7 @@ let products = [
     PEÇAS: "MANGUEIRA INFERIOR DO RADIADOR ORIGINAL",
     APLICAÇÃO: "TROLLER 15/21",
     UNIDADES: "01 UNID",
-    VALOR: "439",
+    VALOR: "590",
   },
   {
     "COD. INTERNO": "MT0080",
@@ -527,7 +527,7 @@ let products = [
     PEÇAS: "MOTOR ATUADOR ELÉTRICO DO AR CONDICIONADO ORIGINAL",
     APLICAÇÃO: "TROLLER 15/21",
     UNIDADES: "01 UNID",
-    VALOR: "139,00",
+    VALOR: "260",
   },
   {
     "COD. INTERNO": "MT0044",
@@ -660,14 +660,14 @@ let products = [
     PEÇAS: "TAMPÃO DO ASSOALHO TODOS",
     APLICAÇÃO: "TROLLER 02/21",
     UNIDADES: "01 UNID",
-    VALOR: "15",
+    VALOR: "25",
   },
   {
     "COD. INTERNO": "MT0100",
     PEÇAS: "TENSOR ESTICADOR CORREIA POLY-V ORIGINAL",
     APLICAÇÃO: "TROLLER 15/21",
     UNIDADES: "01 UNID",
-    VALOR: "R$ 543,00",
+    VALOR: "R$ 770",
   },
   {
     "COD. INTERNO": "MT0039",
@@ -766,7 +766,7 @@ let products = [
     PEÇAS: "BORRACHA DO DUTO DE FILTRO DE AR",
     APLICAÇÃO: "TROLLER 09/14",
     UNIDADES: "01 UNID",
-    VALOR: "90,00",
+    VALOR: "130",
   },
   {
     "COD. INTERNO": "MT0110",
@@ -913,7 +913,7 @@ let products = [
     PEÇAS: "BRUCUTU TROLLER",
     APLICAÇÃO: "TROLLER 15/21",
     UNIDADES: "01 UNID",
-    VALOR: "120",
+    VALOR: "260",
   },
   {
     "COD. INTERNO": "MT0131",
@@ -934,7 +934,7 @@ let products = [
     PEÇAS: "MÓDULO VIDRO ELÉTRICO ORIGINAL",
     APLICAÇÃO: "TROLLER 09/14",
     UNIDADES: "01 UNID",
-    VALOR: "245",
+    VALOR: "500",
   },
   {
     "COD. INTERNO": "MT0134",
@@ -1032,7 +1032,7 @@ let products = [
     PEÇAS: "DIFUSOR DE AR CENTRAL ORIGINAL",
     APLICAÇÃO: "TROLLER 09/21",
     UNIDADES: "01 UNID",
-    VALOR: "165",
+    VALOR: "199",
   },
   {
     "COD. INTERNO": "MT0148",
@@ -1088,7 +1088,7 @@ let products = [
     PEÇAS: "REGULADOR DO CAPO ORIGINAL",
     APLICAÇÃO: "TROLLER 15/21",
     UNIDADES: "01 UNID",
-    VALOR: "86",
+    VALOR: "99",
   },
   {
     "COD. INTERNO": "MT0156",
@@ -1110,13 +1110,13 @@ let products = [
     PEÇAS: "CHICOTE ELÉTRICO DO PAINEL TROLLER",
     APLICAÇÃO: "TROLLER 09/14",
     UNIDADES: "01 UNID",
-    VALOR: "3000",
+    VALOR: "4300",
   },
   {
     "COD. INTERNO": "MT0159",
     PEÇAS: "CHICOTE ELÉTRICO DO PAINEL TROLLER",
     APLICAÇÃO: "TROLLER 06/08",
     UNIDADES: "01 UNID",
-    VALOR: "3000",
+    VALOR: "4300",
   },
 ];
